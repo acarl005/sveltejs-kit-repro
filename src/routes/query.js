@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import { parse } from 'pgsql-parser';
 
 export async function get({ request }) {
 	return {
